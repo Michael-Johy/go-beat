@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d40bd113-5f02-41e3-87f1-2b1b8d53cad2" name="Default Changelist" comment="" />
+    <list default="true" id="d40bd113-5f02-41e3-87f1-2b1b8d53cad2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/base-grpc-client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-grpc-proto/basketball.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-grpc-proto/basketball.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-grpc-server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/person_use.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morestrings/my.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/number/ff.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morestrings/reverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/morestrings/reverse.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +52,9 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -31,16 +71,52 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/base-grpc-client" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build example.com/user/hello/base-grpc-client">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$" />
+      <package value="example.com/john/go_demo1" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build example.com/user/hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/hello.go" />
+      <package value="example.com/user/hello" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build example.com/user/hello/base-grpc-client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/base-grpc-client/client.go" />
+      <package value="example.com/user/hello/base-grpc-client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build example.com/user/hello/base-grpc-server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/base-grpc-server/server.go" />
+      <package value="example.com/user/hello/base-grpc-server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/hello.go" />
       <package value="example.com/john/go_demo1" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -56,10 +132,30 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build example.com/user/hello/base-grpc-client" />
+        <item itemvalue="Go Build.go build example.com/user/hello/base-grpc-server" />
+        <item itemvalue="Go Build.go build example.com/user/hello" />
+        <item itemvalue="Go Build.go build hello.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -69,13 +165,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="178" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1614243759198" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1614243755438">
+    <state x="641" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614311862282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614243755438" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1614243783049">
+    <state x="641" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614311862282" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1614409683406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614243783049" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614409683406" />
+    <state width="1867" height="337" key="GridCell.Tab.0.bottom" timestamp="1614424933520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
+    <state width="1867" height="337" key="GridCell.Tab.0.center" timestamp="1614424933520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
+    <state width="1867" height="337" key="GridCell.Tab.0.left" timestamp="1614424933520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
+    <state width="1867" height="337" key="GridCell.Tab.0.right" timestamp="1614424933520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
+    <state width="1867" height="337" key="GridCell.Tab.1.bottom" timestamp="1614424933520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
+    <state width="1867" height="337" key="GridCell.Tab.1.center" timestamp="1614424933520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
+    <state width="1867" height="337" key="GridCell.Tab.1.left" timestamp="1614424933520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
+    <state width="1867" height="337" key="GridCell.Tab.1.right" timestamp="1614424933520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
+    <state x="461" y="155" key="SettingsEditor" timestamp="1614322792567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614322792567" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1614332219095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614332219095" />
   </component>
 </project>

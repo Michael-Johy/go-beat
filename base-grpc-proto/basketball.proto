@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package basketBallPlayer;
+
+message Player{
+  string id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  int32 age = 4;
+  string photo_url = 5;
+}
+
+message PlayerRequest{
+  string id = 1;
+}
+
+message PlayerResponse{
+  Player result = 1;
+}
+
+service PlayerService{
+  rpc GetBasketBallPlayer(PlayerRequest) returns (PlayerResponse) {};
+}
