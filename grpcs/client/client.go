@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	basketBallPlayer "example.com/user/hello/base-grpc-proto"
+	"example.com/user/hello/grpcs/proto"
 	"google.golang.org/grpc"
 	"log"
 )
@@ -18,9 +18,9 @@ func main() {
 
 	defer conn.Close()
 
-	client := basketBallPlayer.NewPlayerServiceClient(conn)
+	client := proto.NewPlayerServiceClient(conn)
 
-	player, e := client.GetBasketBallPlayer(context.Background(), &basketBallPlayer.PlayerRequest{
+	player, e := client.GetBasketBallPlayer(context.Background(), &proto.PlayerRequest{
 		Id: "1",
 	})
 

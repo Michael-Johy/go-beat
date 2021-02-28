@@ -4,7 +4,7 @@
 // 	protoc        v3.15.3
 // source: basketball.proto
 
-package basketBallPlayer
+package proto
 
 import (
 	context "context"

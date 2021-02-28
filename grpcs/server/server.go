@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	basketBallPlayer "example.com/user/hello/base-grpc-proto"
+	"example.com/user/hello/grpcs/proto"
 	"fmt"
 	"github.com/patrickmn/go-cache"
 	"google.golang.org/grpc"
@@ -15,12 +15,12 @@ type server struct{}
 
 var c *cache.Cache
 
-func (*server) GetBasketBallPlayer(ctx context.Context, in *basketBallPlayer.PlayerRequest) (*basketBallPlayer.PlayerResponse, error) {
+func (*server) GetBasketBallPlayer(ctx context.Context, in *proto.PlayerRequest) (*proto.PlayerResponse, error) {
 	id := in.GetId()
 	player, found := c.Get(id)
 	if found {
-		player := player.(basketBallPlayer.Player)
-		return &basketBallPlayer.PlayerResponse{
+		player := player.(proto.Player)
+		return &proto.PlayerResponse{
 			Result: &player,
 		}, nil
 	}
@@ -30,7 +30,7 @@ func (*server) GetBasketBallPlayer(ctx context.Context, in *basketBallPlayer.Pla
 func main() {
 	fmt.Println("Starting gRPC micro-service...")
 	c = cache.New(time.Minute*60, time.Minute*70)
-	c.Set("1", basketBallPlayer.Player{
+	c.Set("1", proto.Player{
 		Id:        "1",
 		FirstName: "f1",
 		LastName:  "l1",
@@ -44,7 +44,7 @@ func main() {
 	}
 
 	s := grpc.NewServer()
-	basketBallPlayer.RegisterPlayerServiceServer(s, &server{})
+	proto.RegisterPlayerServiceServer(s, &server{})
 
 	if e := s.Serve(l); e != nil {
 		log.Fatalf("failed to serve %v", e)
