@@ -13,9 +13,6 @@ import "example.com/user/hello/file"
 import "example.com/user/hello/number"
 import "github.com/google/go-cmp/cmp"
 
-import _ "newgit.op.ksyun.com/cdn-schedule-new/common"
-import "newgit.op.ksyun.com/cdn-schedule-new/common/index"
-
 func main() {
 	fmt.Print(morestrings.ReverseRunes("Hello1 World"))
 	fmt.Print(cmp.Diff("Hello, World", "Hello, Go"))
@@ -75,9 +72,6 @@ func main() {
 	testType(1)
 	testType(2.2)
 	testType("1111")
-
-	stock := index.Stock{Name: "600789", Price: 22.22}
-	fmt.Println(stock.Name)
 
 }
 

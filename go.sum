@@ -87,5 +87,3 @@ gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-newgit.op.ksyun.com/cdn-schedule-new/common v0.0.0-20210227073836-f4d0d8a924fa h1:S4e6bsuEpBHZUqoAtFUb8hzmdXsl7xZFihXnd1jbi6Q=
-newgit.op.ksyun.com/cdn-schedule-new/common v0.0.0-20210227073836-f4d0d8a924fa/go.mod h1:bGmatZ898V+F99cEiYInjZMWDZsAGxFE95/zNzW7JU4=
