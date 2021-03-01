@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"math"
 	"strings"
 )
 
@@ -69,9 +70,7 @@ func main() {
 	fmt.Println(age)
 	fmt.Println(ok)
 
-	testType(1)
-	testType(2.2)
-	testType("1111")
+	fmt.Println(math.Exp2(2))
 
 }
 
@@ -97,6 +96,5 @@ func testType(a interface{}) {
 		fmt.Print("float32", value)
 	default:
 		fmt.Printf("have type %T", value)
-
 	}
 }
