@@ -22,22 +22,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d40bd113-5f02-41e3-87f1-2b1b8d53cad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base-grpc-client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-grpc-proto/basketball.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-grpc-proto/basketball.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-grpc-server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/file.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/person.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/person_use.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morestrings/my.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/number/ff.go" afterDir="false" />
+    <list default="true" id="d40bd113-5f02-41e3-87f1-2b1b8d53cad2" name="Default Changelist" comment="chan">
+      <change afterPath="$PROJECT_DIR$/algorithm/arr/direcarr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/bit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/bst.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/cache/lru.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/graph.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/heap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/mark/mark" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/mymath.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/ntree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/slidewindow/slidewindow.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/strings.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/tree1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/tree2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/tree3.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/tree.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morestrings/reverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/morestrings/reverse.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +55,27 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="C:/Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectId" id="1oy0sZ4Mz70kLS8YnguPD1JiGyq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,10 +83,23 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/base-grpc-client" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/grpcs/server" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Go Build.go build example.com/user/hello/base-grpc-client">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codes\go\john-hello\grpcs\server" />
+      <recent name="D:\codes\go\john-hello\base-grpc-client" />
+      <recent name="D:\codes\go\john-hello\base-grpc-server" />
+      <recent name="D:\codes\go\john-hello" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codes\go\john-hello\grpcs\client" />
+      <recent name="D:\codes\go\john-hello\grpcs\proto" />
+      <recent name="D:\codes\go\john-hello\base-grpc-proto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build lru.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$" />
@@ -85,38 +110,47 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build example.com/user/hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="hello" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/hello.go" />
-      <package value="example.com/user/hello" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build example.com/user/hello/base-grpc-client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="hello" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/base-grpc-client/client.go" />
-      <package value="example.com/user/hello/base-grpc-client" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build example.com/user/hello/base-grpc-server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="hello" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/base-grpc-server/server.go" />
-      <package value="example.com/user/hello/base-grpc-server" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build bst.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/hello.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/bst.go" />
+      <package value="example.com/john/go_demo1" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build example.com/user/hello/algorithm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/algorithm/tree.go" />
+      <package value="example.com/user/hello/algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build example.com/user/hello/algorithm/arr" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/algorithm/arr/direcarr.go" />
+      <package value="example.com/user/hello/algorithm/arr" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lru.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/algorithm/cache/lru.go" />
+      <package value="example.com/john/go_demo1" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build tree3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/algorithm/tree3.go" />
       <package value="example.com/john/go_demo1" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -134,10 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build example.com/user/hello/base-grpc-client" />
-        <item itemvalue="Go Build.go build example.com/user/hello/base-grpc-server" />
-        <item itemvalue="Go Build.go build example.com/user/hello" />
-        <item itemvalue="Go Build.go build hello.go" />
+        <item itemvalue="Go Build.go build lru.go" />
+        <item itemvalue="Go Build.go build example.com/user/hello/algorithm/arr" />
+        <item itemvalue="Go Build.go build example.com/user/hello/algorithm" />
+        <item itemvalue="Go Build.go build bst.go" />
+        <item itemvalue="Go Build.go build tree3.go" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +192,12 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add gRPC" />
+    <MESSAGE value="chan" />
+    <option name="LAST_COMMIT_MESSAGE" value="chan" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -165,53 +206,96 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="178" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1614243759198" />
-    <state x="641" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614311862282">
+    <state x="702" y="433" key="#GOROOT" timestamp="1614484456690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="702" y="433" key="#GOROOT/0.0.1920.1040@0.0.1920.1040" timestamp="1614484456690" />
+    <state x="456" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615009947431">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="456" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1615009947431" />
     <state x="641" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614311862282" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1614409683406">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1614484526878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614409683406" />
-    <state width="1867" height="337" key="GridCell.Tab.0.bottom" timestamp="1614424933520">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614484526878" />
+    <state width="1867" height="541" key="GridCell.Tab.0.bottom" timestamp="1614996443717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
-    <state width="1867" height="337" key="GridCell.Tab.0.center" timestamp="1614424933520">
+    <state width="1313" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614934175268" />
+    <state width="1867" height="541" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
+    <state width="1867" height="541" key="GridCell.Tab.0.center" timestamp="1614996443717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
-    <state width="1867" height="337" key="GridCell.Tab.0.left" timestamp="1614424933520">
+    <state width="1313" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614934175268" />
+    <state width="1867" height="541" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
+    <state width="1867" height="541" key="GridCell.Tab.0.left" timestamp="1614996443717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
-    <state width="1867" height="337" key="GridCell.Tab.0.right" timestamp="1614424933520">
+    <state width="1313" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614934175268" />
+    <state width="1867" height="541" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
+    <state width="1867" height="541" key="GridCell.Tab.0.right" timestamp="1614996443717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
-    <state width="1867" height="337" key="GridCell.Tab.1.bottom" timestamp="1614424933520">
+    <state width="1313" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614934175268" />
+    <state width="1867" height="541" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
+    <state width="1867" height="541" key="GridCell.Tab.1.bottom" timestamp="1614996443717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
-    <state width="1867" height="337" key="GridCell.Tab.1.center" timestamp="1614424933520">
+    <state width="1313" height="293" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614856957111" />
+    <state width="1867" height="541" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
+    <state width="1867" height="541" key="GridCell.Tab.1.center" timestamp="1614996443717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
-    <state width="1867" height="337" key="GridCell.Tab.1.left" timestamp="1614424933520">
+    <state width="1313" height="293" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614856957111" />
+    <state width="1867" height="541" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
+    <state width="1867" height="541" key="GridCell.Tab.1.left" timestamp="1614996443717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
-    <state width="1867" height="337" key="GridCell.Tab.1.right" timestamp="1614424933520">
+    <state width="1313" height="293" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614856957111" />
+    <state width="1867" height="541" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
+    <state width="1867" height="541" key="GridCell.Tab.1.right" timestamp="1614996443717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614424933520" />
-    <state x="461" y="155" key="SettingsEditor" timestamp="1614322792567">
+    <state width="1313" height="293" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614856957111" />
+    <state width="1867" height="541" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
+    <state x="293" y="144" key="SettingsEditor" timestamp="1614578110018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614322792567" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1614332219095">
+    <state x="293" y="144" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614578110018" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1614594866552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614332219095" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614594866552" />
+    <state x="586" y="186" width="748" height="668" key="find.popup" timestamp="1614995054873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="186" width="748" height="668" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614995054873" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1615087018904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="383" y="4" width="840" height="724" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1615012349579" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615087018904" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/tree1.go</url>
+          <line>82</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/tree2.go</url>
+          <line>41</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/cache/lru.go</url>
+          <line>116</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
