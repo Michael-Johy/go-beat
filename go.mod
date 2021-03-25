@@ -1,6 +1,6 @@
 module example.com/user/hello
 
-go 1.15
+go 1.16
 
 require (
 	github.com/gin-gonic/gin v1.6.3

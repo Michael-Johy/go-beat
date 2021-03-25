@@ -22,26 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d40bd113-5f02-41e3-87f1-2b1b8d53cad2" name="Default Changelist" comment="chan">
-      <change afterPath="$PROJECT_DIR$/algorithm/arr/direcarr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/bit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/bst.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/cache/lru.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/graph.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/heap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/mark/mark" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/mymath.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/ntree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/slidewindow/slidewindow.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/strings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/tree1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/tree2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/tree3.go" afterDir="false" />
+    <list default="true" id="d40bd113-5f02-41e3-87f1-2b1b8d53cad2" name="Default Changelist" comment="添加算法的go实现">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/embed/myembed.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/embed/txt/hello" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/tree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gin/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/gin/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysum/sum.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysum/sum_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number/numbers.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +69,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -87,19 +82,20 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codes\go\john-hello\embed\txt" />
+      <recent name="D:\codes\go\john-hello\grpcs\client" />
+      <recent name="D:\codes\go\john-hello\grpcs\proto" />
+      <recent name="D:\codes\go\john-hello\base-grpc-proto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\codes\go\john-hello\grpcs\server" />
       <recent name="D:\codes\go\john-hello\base-grpc-client" />
       <recent name="D:\codes\go\john-hello\base-grpc-server" />
       <recent name="D:\codes\go\john-hello" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\codes\go\john-hello\grpcs\client" />
-      <recent name="D:\codes\go\john-hello\grpcs\proto" />
-      <recent name="D:\codes\go\john-hello\base-grpc-proto" />
-    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build lru.go">
+  <component name="RunManager" selected="Go Build.go build myembed.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$" />
@@ -146,11 +142,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tree3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build myembed.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/tree3.go" />
+      <filePath value="$PROJECT_DIR$/embed/myembed.go" />
       <package value="example.com/john/go_demo1" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -168,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build myembed.go" />
         <item itemvalue="Go Build.go build lru.go" />
         <item itemvalue="Go Build.go build example.com/user/hello/algorithm/arr" />
         <item itemvalue="Go Build.go build example.com/user/hello/algorithm" />
         <item itemvalue="Go Build.go build bst.go" />
-        <item itemvalue="Go Build.go build tree3.go" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +192,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add gRPC" />
     <MESSAGE value="chan" />
-    <option name="LAST_COMMIT_MESSAGE" value="chan" />
+    <MESSAGE value="添加算法的go实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加算法的go实现" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -210,67 +207,67 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="433" key="#GOROOT/0.0.1920.1040@0.0.1920.1040" timestamp="1614484456690" />
-    <state x="456" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615009947431">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="641" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616403353702">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="456" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1615009947431" />
-    <state x="641" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614311862282" />
+    <state x="641" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616403353702" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1614484526878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614484526878" />
-    <state width="1867" height="541" key="GridCell.Tab.0.bottom" timestamp="1614996443717">
+    <state width="1867" height="178" key="GridCell.Tab.0.bottom" timestamp="1616461880293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614934175268" />
-    <state width="1867" height="541" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
-    <state width="1867" height="541" key="GridCell.Tab.0.center" timestamp="1614996443717">
+    <state width="1867" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616461880293" />
+    <state width="1867" height="178" key="GridCell.Tab.0.center" timestamp="1616461880293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614934175268" />
-    <state width="1867" height="541" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
-    <state width="1867" height="541" key="GridCell.Tab.0.left" timestamp="1614996443717">
+    <state width="1867" height="178" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616461880293" />
+    <state width="1867" height="178" key="GridCell.Tab.0.left" timestamp="1616461880293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614934175268" />
-    <state width="1867" height="541" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
-    <state width="1867" height="541" key="GridCell.Tab.0.right" timestamp="1614996443717">
+    <state width="1867" height="178" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616461880293" />
+    <state width="1867" height="178" key="GridCell.Tab.0.right" timestamp="1616461880293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614934175268" />
-    <state width="1867" height="541" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
-    <state width="1867" height="541" key="GridCell.Tab.1.bottom" timestamp="1614996443717">
+    <state width="1867" height="178" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616461880293" />
+    <state width="1867" height="541" key="GridCell.Tab.1.bottom" timestamp="1616405822733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="293" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614856957111" />
-    <state width="1867" height="541" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
-    <state width="1867" height="541" key="GridCell.Tab.1.center" timestamp="1614996443717">
+    <state width="1867" height="541" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616405822733" />
+    <state width="1867" height="541" key="GridCell.Tab.1.center" timestamp="1616405822733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="293" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614856957111" />
-    <state width="1867" height="541" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
-    <state width="1867" height="541" key="GridCell.Tab.1.left" timestamp="1614996443717">
+    <state width="1867" height="541" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616405822733" />
+    <state width="1867" height="541" key="GridCell.Tab.1.left" timestamp="1616405822733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="293" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614856957111" />
-    <state width="1867" height="541" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
-    <state width="1867" height="541" key="GridCell.Tab.1.right" timestamp="1614996443717">
+    <state width="1867" height="541" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616405822733" />
+    <state width="1867" height="541" key="GridCell.Tab.1.right" timestamp="1616405822733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="293" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614856957111" />
-    <state width="1867" height="541" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614996443717" />
+    <state width="1867" height="541" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616405822733" />
     <state x="293" y="144" key="SettingsEditor" timestamp="1614578110018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="293" y="144" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614578110018" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1614594866552">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1616142677635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614594866552" />
-    <state x="586" y="186" width="748" height="668" key="find.popup" timestamp="1614995054873">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616142677635" />
+    <state x="586" y="186" width="748" height="668" key="find.popup" timestamp="1616144596998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="186" width="748" height="668" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614995054873" />
+    <state x="586" y="186" width="748" height="668" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616144596998" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1615087018904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -287,7 +284,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/algorithm/tree2.go</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
