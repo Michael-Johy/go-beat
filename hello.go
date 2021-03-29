@@ -11,7 +11,6 @@ import (
 import "example.com/user/hello/morestrings"
 import "example.com/user/hello/model"
 import "example.com/user/hello/file"
-import "example.com/user/hello/number"
 import "github.com/google/go-cmp/cmp"
 
 func main() {
@@ -56,10 +55,6 @@ func main() {
 		log.Fatal("读取错误")
 	}
 	fmt.Println(content)
-
-	num, i := number.Find([]byte{'a', 'c', 1, 2, 3, 'b', 'd'})
-	fmt.Println(num)
-	fmt.Println(i)
 
 	mymap := map[string]int{
 		"yan1": 1,
